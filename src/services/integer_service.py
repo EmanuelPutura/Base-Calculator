@@ -16,15 +16,13 @@ class IntegerService:
         :param base: a given base
         :return: -
         """
-        # the first operand will always be the number with more digits (if their number of digits is different)
-        if len(first_operand) < len(second_operand):
-            first_operand, second_operand = second_operand, first_operand
         self.__integer_validator.validate_base(base)
         base = int(base)
         integer1 = Integer(first_operand, base)
         self.__integer_validator.validate_integer(integer1, base)
         integer2 = Integer(second_operand, base)
         self.__integer_validator.validate_integer(integer2, base)
+        return integer1 + integer2
 
     def sub(self, first_operand, second_operand, base):
         """
@@ -34,9 +32,6 @@ class IntegerService:
         :param base: a given base
         :return: -
         """
-        # the first operand will always be the number with more digits (if their number of digits is different)
-        if len(first_operand) < len(second_operand):
-            first_operand, second_operand = second_operand, first_operand
         self.__integer_validator.validate_base(base)
         base = int(base)
         integer1 = Integer(first_operand, base)

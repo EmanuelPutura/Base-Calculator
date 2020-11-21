@@ -29,6 +29,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../a678-916-Putura-Emanuel-Vasile" />
   </component>
   <component name="RunManager" selected="Python.main">
+    <configuration name="integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Base-Calculator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/domain" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/domain/integer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Base-Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,6 +98,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.integer" />
         <item itemvalue="Python.user_data_validator" />
       </list>
     </recent_temporary>
@@ -88,7 +111,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605894010551</updated>
-      <workItem from="1605894011604" duration="5932000" />
+      <workItem from="1605894011604" duration="6095000" />
+      <workItem from="1605944048347" duration="2882000" />
     </task>
     <servers />
   </component>
@@ -104,25 +128,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605894919016" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605898404364">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605946840876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605898404364" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605898404364">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605946840876" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605946840876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605898404364" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605898404364">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605946840876" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605946840876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605898404364" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605898404364">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605946840876" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605946840876">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605898404364" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605946840876" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Base_Calculator$integer.coverage" NAME="integer Coverage Results" MODIFIED="1605946204003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" />
     <SUITE FILE_PATH="coverage/Base_Calculator$user_data_validator.coverage" NAME="user_data_validator Coverage Results" MODIFIED="1605896392818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/validation" />
-    <SUITE FILE_PATH="coverage/Base_Calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1605898391081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Base_Calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1605946832462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
