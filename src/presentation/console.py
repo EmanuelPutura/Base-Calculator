@@ -7,24 +7,28 @@ class Console:
         self.__integer_service = integer_service
 
     def ui_add(self):
-        base = input(Color.OKGREEN + 'Please input base: ')
-        first_operand = input('Please input the first operand: ')
-        second_operand = input('Please input the second operand: ')
+        base = input(Color.OKGREEN + 'Please input a base: ').strip()
+        first_operand = input('Please input the first operand: ').strip()
+        second_operand = input('Please input the second operand: ').strip()
         result = self.__integer_service.add(first_operand, second_operand, base)
         print('{} + {} = {} (in base {})'.format(first_operand, second_operand, result, base) + Color.ENDC)
 
     def ui_sub(self):
-        base = input('Please input base: ')
-        first_operand = input('Please input the first operand: ')
-        second_operand = input('Please input the second operand: ')
+        base = input(Color.OKGREEN + 'Please input a base: ').strip()
+        first_operand = input('Please input the first operand: ').strip()
+        second_operand = input('Please input the second operand: ').strip()
         result = self.__integer_service.sub(first_operand, second_operand, base)
         print('{} - {} = {} (in base {})'.format(first_operand, second_operand, result, base) + Color.ENDC)
 
-    def ui_div(self):
-        pass
-
     def ui_mul(self):
-        pass
+        base = input(Color.OKGREEN + 'Please input a base: ').strip()
+        first_operand = input('Please input the first operand: ').strip()
+        second_operand = input('Please input the second operand: ').strip()
+
+    def ui_div(self):
+        base = input(Color.OKGREEN + 'Please input a base: ').strip()
+        first_operand = input('Please input the first operand: ').strip()
+        second_operand = input('Please input the second operand: ').strip()
 
     @staticmethod
     def __print_menu():
@@ -41,7 +45,7 @@ class Console:
         print(Color.OKCYAN + '*' * full_title_number_of_characters + Color.ENDC + '\n')
 
     def run(self):
-        commands = {'add': self.ui_add, 'sub': self.ui_sub, 'mul': self.ui_div, 'div': self.ui_mul}
+        commands = {'add': self.ui_add, 'sub': self.ui_sub, 'mul': self.ui_mul, 'div': self.ui_div}
 
         while True:
             try:
