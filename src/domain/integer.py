@@ -27,6 +27,9 @@ class Integer:
     def successive_divisions_method(self, destination_base):
         pass
 
+    def rapid_conversions(self, destination_base):
+        pass
+
     def convert_to_base10(self):
         """
         Converts the integer into base 10
@@ -54,20 +57,14 @@ class Integer:
         """
         # we can convert the number to int as we know it is written in base 10
         number = int(self.__number)
-        source_base = self.__base
         result = ''
 
         while number != 0:
             result = self.__corresponding_digit[number % destination_base] + result
             number //= destination_base
-        self.__number = result
+        if result != '':
+            self.__number = result
         self.__base = destination_base
-
-    def rapid_conversions(self, destination_base):
-        pass
-
-    def __len__(self):
-        return len(self.__number)
 
     def __add__(self, other):
         """
@@ -123,7 +120,10 @@ class Integer:
                 carry = 1
                 difference += base
             result += self.__corresponding_digit[difference]
-        return Integer(result.rstrip('0')[::-1], base)
+        result_integer = Integer(result.rstrip('0')[::-1], base)
+        if result_integer.__number == '':
+            result_integer.__number = '0'
+        return result_integer
 
     def __mul__(self, other):
         """
@@ -149,7 +149,10 @@ class Integer:
             result += self.__corresponding_digit[digit]
         if carry:
             result += str(carry)
-        return Integer(result[::-1], base)
+        result_integer = Integer(result.rstrip('0')[::-1], base)
+        if result_integer.__number == '':
+            result_integer.__number = '0'
+        return result_integer
 
     def __truediv__(self, other):
         """
@@ -163,10 +166,25 @@ class Integer:
         result = ''
 
         length = len(first_operand)
-        carry = 0
+        remainder = 0
         # for every digit in the two operands
         for i in range(length):
-            print(first_operand[i])
+            digit = Integer(first_operand[i], base)
+            digit.convert_to_base10()
+            base10_digit = int(digit.number) + remainder * base
+            digit = Integer(str(base10_digit // self.__corresponding_number[second_operand]), 10)
+            digit.convert_from_base10(base)
+            digit = digit.number
+            result += digit
+            remainder = base10_digit % self.__corresponding_number[second_operand]
+        result_integer = Integer(result.lstrip('0'), base)
+        return result_integer, self.__corresponding_digit[remainder]
+
+    def __len__(self):
+        """
+        :return: the number of digits of an integer given in a certain base
+        """
+        return len(self.__number)
 
     def __eq__(self, other):
         """
