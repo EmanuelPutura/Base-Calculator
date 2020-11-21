@@ -26,9 +26,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../a678-916-Putura-Emanuel-Vasile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../s05x-g6-t916" />
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.integer">
     <configuration name="integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Base-Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
         <item itemvalue="Python.integer" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.user_data_validator" />
       </list>
     </recent_temporary>
@@ -113,7 +113,7 @@
       <updated>1605894010551</updated>
       <workItem from="1605894011604" duration="6095000" />
       <workItem from="1605944048347" duration="13914000" />
-      <workItem from="1605960533787" duration="692000" />
+      <workItem from="1605960533787" duration="10997000" />
     </task>
     <servers />
   </component>
@@ -129,42 +129,42 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605897457086" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605894919016">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1605983653266">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605894919016" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1605961230450">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605983653266" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605961230450" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1605961230450">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605961230450" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1605961230450">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605961230450" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1605961230450">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605961230450" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605958094389">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605958094389" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605958094389">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605958094389" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605958094389">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605958094389" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605958094389">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1605983758343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605958094389" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605983758343" />
     <state x="584" y="346" key="ReplaceDuplicatesPrompt" timestamp="1605953413280">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -179,8 +179,8 @@
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605954424012" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Base_Calculator$integer.coverage" NAME="integer Coverage Results" MODIFIED="1605957693940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" />
+    <SUITE FILE_PATH="coverage/Base_Calculator$integer.coverage" NAME="integer Coverage Results" MODIFIED="1605983480887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/domain" />
     <SUITE FILE_PATH="coverage/Base_Calculator$user_data_validator.coverage" NAME="user_data_validator Coverage Results" MODIFIED="1605896392818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/validation" />
-    <SUITE FILE_PATH="coverage/Base_Calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1605961112392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Base_Calculator$main.coverage" NAME="main Coverage Results" MODIFIED="1605983278077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
