@@ -24,11 +24,15 @@ class Console:
         base = input(Color.OKGREEN + 'Please input a base: ').strip()
         first_operand = input('Please input the first operand: ').strip()
         second_operand = input('Please input the second operand: ').strip()
+        result = self.__integer_service.mul(first_operand, second_operand, base)
+        print('{} * {} = {} (in base {})'.format(first_operand, second_operand, result, base) + Color.ENDC)
 
     def ui_div(self):
         base = input(Color.OKGREEN + 'Please input a base: ').strip()
         first_operand = input('Please input the first operand: ').strip()
         second_operand = input('Please input the second operand: ').strip()
+        result = self.__integer_service.div(first_operand, second_operand, base)
+        print('{} / {} = {}, remained = {} (in base {})'.format(first_operand, second_operand, result[0], result[1], base) + Color.ENDC)
 
     @staticmethod
     def __print_menu():
