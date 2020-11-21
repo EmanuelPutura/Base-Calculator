@@ -40,13 +40,13 @@ class Console:
         title = ' Base Calculator and Converter Application '
         margins_length = (full_title_number_of_characters - len(title)) // 2
 
-        print('\n' + Color.OKCYAN + '*' * margins_length + title + '*' * margins_length)
+        print(Color.OKCYAN + '*' * margins_length + title + '*' * margins_length)
         print(Color.OKBLUE + ' add - add two positive integers in a given base')
         print(' sub - subtract two positive integers in a given base')
         print(' mul - multiply two positive integers in a given base')
         print(' div - divide one positive integer by a digit in a given base')
         print(' exit - exit the application')
-        print(Color.OKCYAN + '*' * full_title_number_of_characters + Color.ENDC + '\n')
+        print(Color.OKCYAN + '*' * full_title_number_of_characters + Color.ENDC)
 
     def run(self):
         commands = {'add': self.ui_add, 'sub': self.ui_sub, 'mul': self.ui_mul, 'div': self.ui_div}
@@ -64,3 +64,5 @@ class Console:
                 print(userCommandError)
             except ValidationError as validationError:
                 print(validationError)
+            except Exception as exception:
+                print(Color.FAIL + 'Unexpected error occurred.\n' + str(exception) + Color.ENDC)

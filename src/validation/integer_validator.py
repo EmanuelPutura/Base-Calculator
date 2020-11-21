@@ -40,3 +40,28 @@ class IntegerValidator:
                 errors += "'{}' is not a valid digit in base {}.\n".format(digit, base)
         if len(errors):
             raise ValidationError(errors)
+
+    def validate_mul(self, operand2):
+        """
+        Validates second operand of a mul operation
+        :param operand2: an integer object representing the second operand of a mul operation
+        :return: -
+        :exception: ValidationError if the second operand is not a correct one
+        """
+        if len(operand2.number) != 1:
+            raise ValidationError('Multiplication can only be done by one digit.\n')
+
+    def validate_div(self, operand2):
+        """
+        Validates second operand of a div operation
+        :param operand2: an integer object representing the second operand of a div operation
+        :return: -
+        :exception: ValidationError if the second operand is not a correct one
+        """
+        errors = ''
+        if len(operand2.number) != 1:
+            errors += 'Division can only be done by one digit.\n'
+        if operand2.number == '0':
+            errors += 'Dividing by zero is not accepted.\n'
+        if len(errors):
+            raise ValidationError(errors)

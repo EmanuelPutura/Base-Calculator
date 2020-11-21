@@ -55,6 +55,7 @@ class IntegerService:
         :return: the result of the multiplication
         """
         integer1, integer2 = self.operation_prepare_data(base, first_operand, second_operand)
+        self.__integer_validator.validate_mul(integer2)
         return integer1 * integer2
 
     def div(self, first_operand, second_operand, base):
@@ -66,4 +67,5 @@ class IntegerService:
         :return: the result of the division
         """
         integer1, integer2 = self.operation_prepare_data(base, first_operand, second_operand)
+        self.__integer_validator.validate_div(integer2)
         return integer1 / integer2
