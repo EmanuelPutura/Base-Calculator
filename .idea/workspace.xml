@@ -28,7 +28,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../s05x-g6-t916" />
   </component>
-  <component name="RunManager" selected="Python.integer">
+  <component name="RunManager" selected="Python.main">
     <configuration name="integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Base-Calculator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.integer" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.integer" />
         <item itemvalue="Python.user_data_validator" />
       </list>
     </recent_temporary>
